@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Training artefacts (large — regenerate with train.py)
+checkpoints/
+*.pth
+*.pt
+
+# Episode logs: the raw logs are committed under data/ as
+# "Episode result_*.txt"; local scratch runs are ignored.
+data/_*.txt
+data/Episode result_eval.txt
+
+# OS
+.DS_Store
+Thumbs.db

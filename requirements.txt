@@ -1,0 +1,7 @@
+# Core
+torch>=2.0
+numpy>=1.23
+scipy>=1.9
+
+# Analysis / plotting (used by analysis/eval_episode_log.py)
+matplotlib>=3.5

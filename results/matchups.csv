@@ -1,0 +1,5 @@
+agent,opponent,map,players,games,winrate_pct,mu,sigma,cv_sigma_over_mu,mean_score_diff,t_stat,p_value,pearson_r,note
+DDQN,策略AI (heuristic),USA,2,150,74.67,89.47,18.34,0.205,25.35,6.673,4.63e-10,-0.243,
+DDQN,GithubAI,USA,2,150,86.67,93.17,12.79,0.137,41.79,13.856,1.42e-28,-0.239,
+DDQN @1540 episodes,GithubAI,USA,2,150,44.67,48.54,24.71,0.509,-13.79,-3.074,0.00251,-0.606,未收敛
+策略AI (heuristic),GithubAI,USA,2,50,48.0,89.4,33.29,0.372,-12.76,-2.428,0.0189,-0.093,高上限高方差
